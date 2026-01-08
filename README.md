@@ -103,7 +103,14 @@ hospital-sql-analysis/
 ## 📬 Notes
 This project uses **synthetic data** generated for learning and demonstration purposes.
 
+
 ---
 
 ### 🧠 Interview One-Liner
 > “This project demonstrates how I use SQL to answer business questions and Power BI to communicate insights clearly.”
+
+## 📸 Dashboard Preview
+
+![Hospital Admissions Dashboard](powerbi/dashboard_preview.png)
+
+
