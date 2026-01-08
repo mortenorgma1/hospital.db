@@ -1,4 +1,5 @@
 -- Calculates total hospital admissions per day
+
 SELECT
     admission_date,
     COUNT(*) AS total_admissions
