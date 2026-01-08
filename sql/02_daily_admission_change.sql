@@ -1,3 +1,5 @@
+-- Shows daily admissions and change compared to the previous day
+
 WITH daily_admissions AS (
     SELECT
         admission_date,
