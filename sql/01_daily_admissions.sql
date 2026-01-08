@@ -1,4 +1,4 @@
--- Calculates total hospital admissions per day
+/* Calculates total hospital admissions per day */
 
 SELECT
     admission_date,
