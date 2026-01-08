@@ -1,4 +1,4 @@
--- Shows daily admissions and change compared to the previous day
+/* Shows daily admissions and change compared to the previous day */
 
 WITH daily_admissions AS (
     SELECT
