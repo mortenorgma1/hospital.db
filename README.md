@@ -1,6 +1,6 @@
-# 🏥 Hospital Admissions Analysis (SQL + Power BI)
+# Hospital Admissions Analysis (SQL + Power BI)
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes hospital admission data to uncover trends in patient admissions, diagnoses, and regional distributions.  
 The objective is to demonstrate **SQL-driven data analysis** combined with **clear, business-focused visualizations** in Power BI.
 
@@ -8,7 +8,7 @@ All analytical logic is implemented in **PostgreSQL**, while Power BI is used st
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 - **Database:** PostgreSQL  
 - **SQL:** JOINs, CTEs, CASE statements, window functions (`LAG`)  
 - **Visualization:** Power BI  
@@ -16,7 +16,7 @@ All analytical logic is implemented in **PostgreSQL**, while Power BI is used st
 
 ---
 
-## 🗂 Database Schema
+## Database Schema
 The database consists of four normalized tables:
 
 - `patients` — patient demographics and physical attributes  
@@ -28,7 +28,7 @@ Foreign keys are used to enforce **referential integrity** between tables.
 
 ---
 
-## 📊 Key Business Questions Answered
+## Key Business Questions Answered
 
 ### 1. How do hospital admissions change over time?
 - Daily and monthly admission trends
@@ -47,7 +47,7 @@ Foreign keys are used to enforce **referential integrity** between tables.
 
 ---
 
-## 🧠 SQL-First Approach
+## SQL-First Approach
 All analytical logic is written in SQL and stored in the `/sql` directory.
 
 Examples include:
@@ -60,7 +60,7 @@ Power BI consumes **query results**, not raw tables, ensuring SQL remains the si
 
 ---
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 The Power BI report includes:
 - **Monthly Admissions Trend** (line chart)
 - **Most Common Admission Diagnoses** (bar chart)
@@ -71,7 +71,7 @@ The dashboard design prioritizes clarity, readability, and executive-level commu
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 hospital-sql-analysis/
 ├── sql/
@@ -92,7 +92,7 @@ hospital-sql-analysis/
 
 ---
 
-## 🚀 Key Takeaways
+## Key Takeaways
 - Strong SQL fundamentals applied to a realistic dataset
 - Clear separation between data logic (SQL) and presentation (Power BI)
 - Focus on answering real business questions, not just writing queries
@@ -100,17 +100,18 @@ hospital-sql-analysis/
 
 ---
 
-## 📬 Notes
+## Notes
 This project uses **synthetic data** generated for learning and demonstration purposes.
 
 
 ---
 
-### 🧠 Interview One-Liner
+### Interview One-Liner
 > “This project demonstrates how I use SQL to answer business questions and Power BI to communicate insights clearly.”
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 ![Hospital Admissions Dashboard](powerbi/dashboard_preview.png)
+
 
 
