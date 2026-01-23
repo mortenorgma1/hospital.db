@@ -1,3 +1,7 @@
+-- Creates the core hospital schema with relational tables (provinces, patients, doctors, admissions) 
+-- and foreign key links to support patient location tracking, doctor assignments, and admission history analysis.
+
+
 CREATE TABLE provinces (
     province_id SERIAL PRIMARY KEY,
     province_name TEXT NOT NULL
@@ -29,3 +33,4 @@ CREATE TABLE admissions (
     discharge_date DATE,
     diagnosis TEXT
 );
+
