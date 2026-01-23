@@ -1,3 +1,7 @@
+-- Inserts realistic sample data into provinces, doctors, patients, and admissions using generate_series + random values to create a larger dataset for reporting and analytics testing 
+-- (specialties, demographics, diagnoses, and admission dates).
+
+
 INSERT INTO provinces (province_name)
 VALUES
     ('Ontario'),
@@ -69,3 +73,4 @@ SELECT
         'Asthma'
     ])[1 + (random() * 5)::int]
 FROM generate_series(1, 20000);
+
